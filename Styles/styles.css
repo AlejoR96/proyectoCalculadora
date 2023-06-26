@@ -11,5 +11,17 @@ body{
 .container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculadora{
+  display: grid;
+  grid-template-columns: repeat(4, 70%);
+  grid-template-rows: 160px repeat(5, 70%);
+  background-color: #00916e;
+  padding: 15px;
+  border-radius: 32px;
+  box-shadow: 15px 10px 0;
 }
 
